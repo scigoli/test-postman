@@ -11,7 +11,12 @@ This project provides a sequence of commands to be called
 4. Modify the first dish
 5. Delete all the dishes
 
-
+```
+  curl --request POST \
+  --url http://localhost:3000/users/register \
+  --header 'content-type: application/json' \
+  --data ' {"username":"usrAdmin","password":"pwdAdmin","firstname":"me","lastname":"myself" }'
+```
 
 The documentation is also available on [Online Postman Documenter](https://documenter.getpostman.com/collection/view/996393-72e02c9a-3331-a6a8-bda4-658519557f40).
 
