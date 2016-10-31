@@ -19,7 +19,7 @@ This project provides a sequence of commands to be called
 ```
 
 
-[PHP Sample](https://gist.github.com/scigoli/ebe88538f58dc3ee00083f802fe51c6d.js)
+[PHP Sample](https://gist.github.com/scigoli/ebe88538f58dc3ee00083f802fe51c6d)
 
 The documentation is also available on [Online Postman Documenter](https://documenter.getpostman.com/collection/view/996393-72e02c9a-3331-a6a8-bda4-658519557f40).
 
