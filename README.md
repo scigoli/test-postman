@@ -16,3 +16,7 @@ This project provides a sequence of commands to be called
 The documentation is also available on [Online Postman Documenter](https://documenter.getpostman.com/collection/view/996393-72e02c9a-3331-a6a8-bda4-658519557f40).
 
 To test the method on your account or to get more snippet you may also [Run in Postman](https://www.getpostman.com/collections/6a93e95a9669e43b665c)
+
+New to Postman? Check out this video
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/JZP2ose-OBQ/0.jpg)](https://youtu.be/JZP2ose-OBQ)
