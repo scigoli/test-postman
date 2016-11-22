@@ -10,7 +10,7 @@ Standard REST API covers all the available method except for those to be used fo
 
 
 ### Custom authentication for transactional emails
-First you need to create a `SMTP+ account`. Then you simply have to use the returned credentials when invoking the "send" method of transactional email API. No login method is required.
+First you need to create a `SMTP+ account`. Then you simply have to use the returned credentials when invoking the method for sending transactional email API. No login method is required.
 
 ```
 curl -X POST -H "Content-Type: application/json" 
@@ -24,7 +24,7 @@ curl -X POST -H "Content-Type: application/json"
 Any SMTP+ account is specific for the MailUp list it belongs to and its password does not expire.
 
 ### Custom authentication for transactional SMS
-First you need to create a `List secret` key. Then you simply have to use List secret value when invoking the "send" method of transactional SMS. You can create, read and delete the "List secret" values by invoking GET, POST or DELETE methods on ```https://sendsms.mailup.com/api/v2.0/lists/MYLISTID/listsecret``` These methods require Basic Authentication by means of your MailUp account credentials. Once you have the List secret you can invoke the "send" method as much as you want without any further authentication.
+First you need to create a `List secret` key. Then you simply have to use List secret value when invoking the method for sending transactional SMS. You can create, read and delete the "List secret" values by invoking GET, POST or DELETE methods on ```https://sendsms.mailup.com/api/v2.0/lists/MYLISTID/listsecret``` These methods require Basic Authentication by means of your MailUp account credentials. Once you have the List secret you can invoke the "send" method as much as you want without any further authentication.
 
 ```
 curl -X POST -H "Content-Type: application/json;odata=verbose;charset=utf-8"  
@@ -39,6 +39,7 @@ curl -X POST -H "Content-Type: application/json;odata=verbose;charset=utf-8"
 }
 ' "https://sendsms.mailup.com/api/v2.0/sms/MYACCOUNTID/MYLISTID"
 ```
+List secret value is specific for each MailUp list. It does not expire.
 
 
 
