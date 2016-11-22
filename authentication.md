@@ -2,7 +2,7 @@
 MailUp APIs use different authentication methods and you may need to use more than one when developing your application. 
 Basically, transactional APIs for email and SMS use their own methods, while the other API methods require OAuth 2.0. Please check out this collection of methods that you can run using Postman
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/97d88425ff91042e4fbc)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)  or [browse the collection](https://www.getpostman.com/collections/49dafc76c63218426551)
 
 
 ### Using OAuth 2.0 for standard REST API
