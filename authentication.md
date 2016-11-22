@@ -6,7 +6,7 @@ Basically, transactional APIs for email and SMS use their own methods, while the
 
 
 ### Using OAuth 2.0 for standard REST API
-Standard REST API covers all the available method except for those to be used for sending transactional (i.e. one to one, not bulk) emails or SMS. Authentication with OAuth requires application keys (client ID, client secret). You need a developer account to get these keys but you can use these keys with any MailUp account.
+Standard REST API covers all the available method except for those to be used for sending transactional (i.e. one to one, not bulk) emails or SMS. Authentication with OAuth requires application keys (client ID, client secret). You need a developer account to get these keys but then you can use them with any other MailUp account.
 
 
 ### Custom authentication for transactional emails
