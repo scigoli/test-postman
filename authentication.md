@@ -4,7 +4,7 @@ Basically, transactional APIs for email and SMS use their own methods, while the
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)
 
-or [browse the collection](https://www.getpostman.com/collections/49dafc76c63218426551)
+You can also [browse the collection](https://documenter.getpostman.com/view/1277067/getting-started/2PNCsE)
 
 
 ### Using OAuth 2.0 for standard REST API
