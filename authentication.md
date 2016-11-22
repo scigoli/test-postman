@@ -39,7 +39,7 @@ curl -X POST -H "Content-Type: application/json;odata=verbose;charset=utf-8"
 }
 ' "https://sendsms.mailup.com/api/v2.0/sms/MYACCOUNTID/MYLISTID"
 ```
-List secret value is specific for each MailUp list. It does not expire.
+List secret value is specific for each MailUp list. It does not expire but MailUp reserves its right to block a List secret in case of abuse.
 
 
 
