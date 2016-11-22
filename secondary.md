@@ -24,7 +24,7 @@ curl -X POST -H "Content-Type: application/json"
 Any SMTP+ account is specific for the MailUp list it belongs to and its password does not expire.
 
 ### Custom authentication for transactional SMS
-First you need to create a `List secret` key. Then you simply have to use List secret value when invoking the "send" method of transactional SMS. You can create, read and delete the "List secret" values by invoking GET, POST or DELETE methods on ```https://sendsms.mailup.com/api/v2.0/lists/1/listsecret``` These methods require Basic Authentication by means of your MailUp account credentials. Once you have the List secret you can invoke the "send" method as much as you want without any further authentication.
+First you need to create a `List secret` key. Then you simply have to use List secret value when invoking the "send" method of transactional SMS. You can create, read and delete the "List secret" values by invoking GET, POST or DELETE methods on ```https://sendsms.mailup.com/api/v2.0/lists/MYLISTID/listsecret``` These methods require Basic Authentication by means of your MailUp account credentials. Once you have the List secret you can invoke the "send" method as much as you want without any further authentication.
 
 ```
 curl -X POST -H "Content-Type: application/json;odata=verbose;charset=utf-8"  
@@ -37,7 +37,7 @@ curl -X POST -H "Content-Type: application/json;odata=verbose;charset=utf-8"
 "DynamicFields":[{"N":"Name","V":"John"},{"N":"City","V":"London"}],
 "isUnicode":0
 }
-' "https://sendsms.mailup.com/api/v2.0/sms/MYACCOUNTID/LISTID"
+' "https://sendsms.mailup.com/api/v2.0/sms/MYACCOUNTID/MYLISTID"
 ```
 
 
