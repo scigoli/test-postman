@@ -4,45 +4,24 @@ Basically, transactional APIs for email and SMS use their own methods, while the
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)
 
-You can also [browse the collection](https://documenter.getpostman.com/view/1277067/getting-started/2PNCsE)
+You can also [browse the collection](https://documenter.getpostman.com/view/1277067/mailup-authentication/2PNCsE)
+
+# Add and manage recipients
+Lorem ipsum
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)
+
+You can also [browse the collection](https://documenter.getpostman.com/view/1277067/mailup-authentication/2PNCsE)
 
 
-### Using OAuth 2.0 for standard REST API
-Standard REST API covers all the available method except for those to be used for sending transactional (i.e. one to one, not bulk) emails or SMS. Authentication with OAuth requires application keys (client ID, client secret). You need a developer account to get these keys but then you can use them with any other MailUp account.
+# Send transactional and other personalized emails
 
 
-### Custom authentication for transactional emails
-First you need to create a `SMTP+ account`. Then you simply have to use the returned credentials when invoking the method for sending transactional email API. No login method is required.
+# Bulk emails
 
-```
-curl -X POST -H "Content-Type: application/json" 
--d '{  
-      "User":{"Username":"SMTPPLUS_USERNAME","Secret":"SMTPPLUS_PASSWORD"}
-       // other parameters...
-       // check out http://help.mailup.com/display/mailupapi/Transactional+Emails+using+APIs for moe details
-    }
-' "https://send.mailup.com/API/v2.0/messages/sendmessage"
-```
-Any SMTP+ account is specific for the MailUp list it belongs to and its password does not expire.
-
-### Custom authentication for transactional SMS
-First you need to create a `List secret` key. Then you simply have to use List secret value when invoking the method for sending transactional SMS. You can create, read and delete the "List secret" values by invoking GET, POST or DELETE methods on ```https://sendsms.mailup.com/api/v2.0/lists/MYLISTID/listsecret``` These methods require Basic Authentication by means of your MailUp account credentials. Once you have the List secret you can invoke the "send" method as much as you want without any further authentication.
-
-```
-curl -X POST -H "Content-Type: application/json;odata=verbose;charset=utf-8"  
--d '{
-"Content":"Hi [Name], welcome to [City]",
-"ListGuid":"MYLISTGUID",
-"ListSecret":"MYLISTSECRET",
-"Recipient":"RECIPIENTSNUMBER",
-"CampaignCode":"Welcome messages",
-"DynamicFields":[{"N":"Name","V":"John"},{"N":"City","V":"London"}],
-"isUnicode":0
-}
-' "https://sendsms.mailup.com/api/v2.0/sms/MYACCOUNTID/MYLISTID"
-```
-List secret value is specific for each MailUp list. It does not expire but MailUp reserves its right to block a List secret in case of abuse.
+# Send transactional and other personalized SMS
 
 
+# Bulk SMS
 
 
