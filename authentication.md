@@ -14,13 +14,13 @@ Basically, transactional APIs for email and SMS use their own methods, while the
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)
 
 
-## Adding and managing recipients(recipients)
+## [Adding and managing recipients](recipients)
 This collection shows you the different subscription methods you can use. In particular, you will learn the differences between single and bulk subscription, Please check out this collection of avaliable methods or browse the [Public documentation page](https://documenter.getpostman.com/view/1277067/mailup-authentication/2PNCsE). 
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)
 
 
-## Send transactional and other personalized emails
+## [Send transactional and other personalized emails](transactionalemails)
 MailUp APIs use different authentication methods and you may need to use more than one when developing your application. 
 Basically, transactional APIs for email and SMS use their own methods, while the other API methods require OAuth 2.0. Please check out this collection of avaliable methods or browse the [Public documentation page](https://documenter.getpostman.com/view/1277067/mailup-authentication/2PNCsE). 
 
