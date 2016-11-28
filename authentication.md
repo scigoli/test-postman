@@ -15,7 +15,7 @@ Basically, transactional APIs for email and SMS use their own methods, while the
 
 
 ## [Adding and managing recipients](recipients)
-This collection shows you the different subscription methods you can use. In particular, you will learn the differences between single and bulk subscription, Please check out this collection of avaliable methods or browse the [Public documentation page](https://documenter.getpostman.com/view/1277067/mailup-authentication/2PNCsE). 
+This collection shows you the different subscription methods you can use. In particular, you will learn the differences between single and bulk subscription, unconfirmed VS confirmed optin, single channel (email or SMS) or multichannel and many other cases. Please check out this collection of avaliable methods or browse the [Public documentation page](https://documenter.getpostman.com/view/1277067/mailup-authentication/2PNCsE). 
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/49dafc76c63218426551)
 
