@@ -1,4 +1,11 @@
-# Authentication
+# Getting started with MailUp REST API
+* [Authentication and resource access](#auth)
+* [Adding and managing recipients](#recipients)
+* [Code samples](#samples)
+* [Reference manual](#confluence)
+
+
+## [Authentication and resource access](auth)
 MailUp APIs use different authentication methods and you may need to use more than one when developing your application. 
 Basically, transactional APIs for email and SMS use their own methods, while the other API methods require OAuth 2.0. Please check out this collection of avaliable methods. You can run it using Postman
 
