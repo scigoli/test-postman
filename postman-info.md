@@ -9,4 +9,4 @@ Each collection contains placeholders with the following format {{MY_KEY}}. You 
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/JZP2ose-OBQ/0.jpg)](https://youtu.be/JZP2ose-OBQ)
 
-[Back to use cases](authentication.md)
+Check out the [Postman collections](authentication.md) we are using to describe the most common use cases.
