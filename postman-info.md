@@ -1,8 +1,8 @@
 # Postman Collections
 
 Work in progress. Add here 
-1. a quick video explaining how we expetct you use Postman.
-2. a list of environment variables to be defined (including a template to be downloaded)
+* a quick video explaining how we expetct you use Postman.
+* a list of environment variables to be defined (including a template to be downloaded)
 
 Postman is a testing framework for REST APIs.
 Each collection contains placeholders with the following format {{MY_KEY}}. You should replace them with the values that are related to your account.
