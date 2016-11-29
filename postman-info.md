@@ -8,3 +8,5 @@ Postman is a testing framework for REST APIs.
 Each collection contains placeholders with the following format {{MY_KEY}}. You should replace them with the values that are related to your account.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/JZP2ose-OBQ/0.jpg)](https://youtu.be/JZP2ose-OBQ)
+
+[Back to use cases](authentication.md)
