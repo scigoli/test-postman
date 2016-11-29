@@ -4,7 +4,7 @@ This repository holds a series of Postman collections demonstrating a variety of
 These examples have been created for use with the Postman utility. If you want to know more about how we are using Postman please check out [this page](postman-info.md) 
 
 For each one of these use cases we provide a "**Run in Postman**" button to download the use cases and test them with your account and a **public documentation page** that you can browse if you simply want to learn which methods have to be used to implement a specific behavior.
-----
+
 
 ## [Authentication and resource access](auth)
 MailUp APIs use different authentication methods and you may need to use more than one when developing your application. 
